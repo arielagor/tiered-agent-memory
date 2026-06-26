@@ -1,5 +1,6 @@
 name: effectiveness-study
 
+# Tiered-agent-memory ongoing effectiveness study.
 # Ongoing study: re-runs the deterministic, LLM-free synthetic benchmark on a
 # schedule and commits the updated results/ (a new history row + regenerated
 # table and SVG). No secrets, no API keys — anyone can reproduce it locally with
