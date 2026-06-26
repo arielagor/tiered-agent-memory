@@ -1,0 +1,10 @@
+node_modules/
+*.log
+.DS_Store
+.env
+# never commit a real memory dir if someone drops one in to try the tools
+/private/
+*.local.md
+
+# regenerable demo output
+examples/out/

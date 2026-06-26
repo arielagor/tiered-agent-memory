@@ -1,0 +1,42 @@
+{
+  "date": "2026-06-26",
+  "sha": "initial",
+  "sizes": [
+    {
+      "n": 50,
+      "probes": 50,
+      "recall5": 1,
+      "recall10": 1,
+      "fullLoadTokens": 579,
+      "retrievedTokens10": 115,
+      "savingsPct": 80.14
+    },
+    {
+      "n": 200,
+      "probes": 200,
+      "recall5": 1,
+      "recall10": 1,
+      "fullLoadTokens": 2400,
+      "retrievedTokens10": 119,
+      "savingsPct": 95.04
+    },
+    {
+      "n": 1000,
+      "probes": 200,
+      "recall5": 1,
+      "recall10": 1,
+      "fullLoadTokens": 11974,
+      "retrievedTokens10": 119,
+      "savingsPct": 99.01
+    },
+    {
+      "n": 5000,
+      "probes": 200,
+      "recall5": 1,
+      "recall10": 1,
+      "fullLoadTokens": 60476,
+      "retrievedTokens10": 120,
+      "savingsPct": 99.8
+    }
+  ]
+}

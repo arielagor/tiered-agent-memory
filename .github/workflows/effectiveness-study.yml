@@ -1,0 +1,40 @@
+name: effectiveness-study
+
+# Ongoing study: re-runs the deterministic, LLM-free synthetic benchmark on a
+# schedule and commits the updated results/ (a new history row + regenerated
+# table and SVG). No secrets, no API keys — anyone can reproduce it locally with
+# `node eval/run-study.mjs`.
+
+on:
+  schedule:
+    - cron: "17 9 * * 1" # Mondays 09:17 UTC (off round-hour; free runners fire late)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: effectiveness-study
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run study
+        run: node eval/run-study.mjs --date "$(date -u +%F)" --sha "${GITHUB_SHA::7}"
+      - name: Commit results if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results/
+          if git diff --cached --quiet; then
+            echo "No results change."
+          else
+            git commit -m "study: $(date -u +%F) effectiveness run"
+            git push
+          fi
