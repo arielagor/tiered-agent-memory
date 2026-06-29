@@ -4,7 +4,7 @@
 <text x="56.0" y="290" font-size="11" text-anchor="middle" fill="#555">50</text><text x="227.0" y="290" font-size="11" text-anchor="middle" fill="#555">200</text><text x="425.5" y="290" font-size="11" text-anchor="middle" fill="#555">1000</text><text x="624.0" y="290" font-size="11" text-anchor="middle" fill="#555">5000</text>
 <text x="320" y="310" font-size="12" text-anchor="middle" fill="#333">memory store size (facts, log scale)</text>
 <polyline fill="none" stroke="#7c3aed" stroke-width="2.5" points="56.0,24.0 227.0,24.0 425.5,24.0 624.0,24.0"/><circle cx="56.0" cy="24.0" r="3.5" fill="#7c3aed"/><circle cx="227.0" cy="24.0" r="3.5" fill="#7c3aed"/><circle cx="425.5" cy="24.0" r="3.5" fill="#7c3aed"/><circle cx="624.0" cy="24.0" r="3.5" fill="#7c3aed"/>
-<polyline fill="none" stroke="#06b6d4" stroke-width="2.5" points="56.0,73.3 227.0,36.3 425.5,26.5 624.0,24.5"/><circle cx="56.0" cy="73.3" r="3.5" fill="#06b6d4"/><circle cx="227.0" cy="36.3" r="3.5" fill="#06b6d4"/><circle cx="425.5" cy="26.5" r="3.5" fill="#06b6d4"/><circle cx="624.0" cy="24.5" r="3.5" fill="#06b6d4"/>
+<polyline fill="none" stroke="#06b6d4" stroke-width="2.5" points="56.0,73.1 227.0,36.3 425.5,26.5 624.0,24.5"/><circle cx="56.0" cy="73.1" r="3.5" fill="#06b6d4"/><circle cx="227.0" cy="36.3" r="3.5" fill="#06b6d4"/><circle cx="425.5" cy="26.5" r="3.5" fill="#06b6d4"/><circle cx="624.0" cy="24.5" r="3.5" fill="#06b6d4"/>
 <rect x="56" y="20" width="12" height="12" fill="#7c3aed"/><text x="74" y="30" font-size="12" fill="#333">retrieval recall@10 (%)</text>
 <rect x="246" y="20" width="12" height="12" fill="#06b6d4"/><text x="264" y="30" font-size="12" fill="#333">token savings vs full-load (%)</text>
 </svg>
