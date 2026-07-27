@@ -1,41 +1,41 @@
 {
-  "date": "2026-07-20",
-  "sha": "a10c1f9",
+  "date": "2026-07-27",
+  "sha": "b15c3dc",
   "sizes": [
     {
       "n": 50,
       "probes": 50,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 580,
-      "retrievedTokens10": 114,
-      "savingsPct": 80.34
+      "fullLoadTokens": 595,
+      "retrievedTokens10": 118,
+      "savingsPct": 80.17
     },
     {
       "n": 200,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 2401,
+      "fullLoadTokens": 2396,
       "retrievedTokens10": 119,
-      "savingsPct": 95.04
+      "savingsPct": 95.03
     },
     {
       "n": 1000,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 12071,
-      "retrievedTokens10": 119,
-      "savingsPct": 99.01
+      "fullLoadTokens": 12200,
+      "retrievedTokens10": 122,
+      "savingsPct": 99
     },
     {
       "n": 5000,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 60441,
-      "retrievedTokens10": 121,
+      "fullLoadTokens": 60592,
+      "retrievedTokens10": 120,
       "savingsPct": 99.8
     }
   ]
