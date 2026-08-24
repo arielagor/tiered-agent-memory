@@ -1,32 +1,32 @@
 {
-  "date": "2026-08-17",
-  "sha": "ddeedb0",
+  "date": "2026-08-24",
+  "sha": "dd740a1",
   "sizes": [
     {
       "n": 50,
       "probes": 50,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 580,
-      "retrievedTokens10": 115,
-      "savingsPct": 80.17
+      "fullLoadTokens": 598,
+      "retrievedTokens10": 118,
+      "savingsPct": 80.27
     },
     {
       "n": 200,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 2442,
-      "retrievedTokens10": 122,
-      "savingsPct": 95
+      "fullLoadTokens": 2395,
+      "retrievedTokens10": 119,
+      "savingsPct": 95.03
     },
     {
       "n": 1000,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 12166,
-      "retrievedTokens10": 121,
+      "fullLoadTokens": 12078,
+      "retrievedTokens10": 120,
       "savingsPct": 99.01
     },
     {
@@ -34,7 +34,7 @@
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 60574,
+      "fullLoadTokens": 60632,
       "retrievedTokens10": 121,
       "savingsPct": 99.8
     }
