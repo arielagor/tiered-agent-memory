@@ -1,31 +1,31 @@
 {
-  "date": "2026-09-21",
-  "sha": "00e7c2f",
+  "date": "2026-09-28",
+  "sha": "b9f8e9a",
   "sizes": [
     {
       "n": 50,
       "probes": 50,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 579,
-      "retrievedTokens10": 115,
-      "savingsPct": 80.14
+      "fullLoadTokens": 597,
+      "retrievedTokens10": 119,
+      "savingsPct": 80.07
     },
     {
       "n": 200,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 2432,
-      "retrievedTokens10": 120,
-      "savingsPct": 95.07
+      "fullLoadTokens": 2438,
+      "retrievedTokens10": 121,
+      "savingsPct": 95.04
     },
     {
       "n": 1000,
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 12072,
+      "fullLoadTokens": 12164,
       "retrievedTokens10": 120,
       "savingsPct": 99.01
     },
@@ -34,8 +34,8 @@
       "probes": 200,
       "recall5": 1,
       "recall10": 1,
-      "fullLoadTokens": 60554,
-      "retrievedTokens10": 120,
+      "fullLoadTokens": 60843,
+      "retrievedTokens10": 122,
       "savingsPct": 99.8
     }
   ]
